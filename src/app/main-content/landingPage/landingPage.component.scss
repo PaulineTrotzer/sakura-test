@@ -1,0 +1,30 @@
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 76px;;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../../../assets/img/ramen_bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+.headline-ct {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
